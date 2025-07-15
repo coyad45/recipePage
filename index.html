@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/style/style.css">
+    <link rel="shortcut icon" href="/src/asset/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+    
     <title>Recipe Page</title>
 </head>
 <body>
     <main>
         <img src="/src/asset/image-omelette.jpeg" alt="omelette">
-        <div>
+        <div class="receta">
             <h1>
                 Simple Omelette Recipe
             </h1>
@@ -20,13 +25,13 @@
                 optionally filled with your choice of cheese, 
                 vegetables, or meats.
             </p>
-            <div>
+            <div class="preparationTime">
                 <h3>
                 Preparation time 
                 </h3>
                 <ul>
                     <li>
-                        <b>Total</b>Approximately 10 minutes
+                        <b>Total</b>: Approximately 10 minutes
                     </li>
                     <li>
                         <b>Preparation</b>: 5 minutes 
@@ -103,7 +108,7 @@
                 </li>
             </ol>
                    
-            <h1>
+            <h1 id="nutri">
                 Nutrition
             </h1>
             <p>
@@ -142,8 +147,6 @@
                         22g
                     </td>
                 </tr>
-               
-                
             </table>
         </div>
     </main>
